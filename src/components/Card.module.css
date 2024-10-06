@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    color: rgb(228, 236, 243);
+}
+.card_header { 
+    padding: 1.30rem;
+    height: 10%;
+}
+
+.card_main {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 60%; 
+}
+
+.card_main_text_container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 70%;
+    
+}
+
+
+.card_footer_light {
+    background-color: #cac5c5; 
+    padding: .625rem; 
+    color: #000000; 
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_footer_dark {
+    background-color: #7d7c7c; 
+    padding: .625rem; 
+    color: #000000; 
+    height: 20%;
+}
+
+.card_selected {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(7, 6, 6, 0.2); 
+}
